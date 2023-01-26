@@ -16,7 +16,7 @@
 
 ### Summary
 
-## **Cryptocurreny Sector**
+## **Cryptocurrency Sector**
 
 ### Coin
 1. Bitcoin
