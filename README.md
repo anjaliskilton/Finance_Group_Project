@@ -36,3 +36,16 @@ Using yahoo finance, historical ticker data for each stock was pulled from Janua
 
 ### Analysis
 However, as we are trying to merge multiple data sets across different sectors, it was found that the data needs to be normalized. In this case, MinMaxScaler from sklearn.preprocessing was used to normalize volume, high, and low to a set of data point between 0 and 1. This allows us to compare our large sets of data more accurately. 
+
+
+#### Example of SQL code
+![sql_ex](sql_ex.PNG)
+
+
+![sql_ex2](sql_ex2.PNG)
+
+![sql_ex3](sql_ex3.PNG)
+
+
+##### Scaler Python Code
+![scale](scale.PNG)
