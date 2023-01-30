@@ -39,13 +39,17 @@ However, as we are trying to merge multiple data sets across different sectors, 
 
 
 #### Example of SQL code
-![sql_ex](sql_ex.PNG)
+![image](https://user-images.githubusercontent.com/111551902/215550526-b165cd11-5f66-4d3e-bdb6-b6219f3e86ea.png)
 
 
-![sql_ex2](sql_ex2.PNG)
 
-![sql_ex3](sql_ex3.PNG)
+![image](https://user-images.githubusercontent.com/111551902/215550673-7c94624a-c978-4459-9b41-eb230d3ffcb5.png)
 
 
-##### Scaler Python Code
-![scale](scale.PNG)
+![image](https://user-images.githubusercontent.com/111551902/215550777-90f6b81f-9d7a-4148-b217-92432f40196c.png)
+
+
+
+##### Example of Scaler Python Code
+![image](https://user-images.githubusercontent.com/111551902/215550861-6cc1a42d-ac4f-4481-a7e0-7d22ac7d2240.png)
+
