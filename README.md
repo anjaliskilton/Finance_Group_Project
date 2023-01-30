@@ -11,6 +11,7 @@ Databases for these sectors were created via Python and SQL and output as CSV fi
 
 ## Healthcare 
 Tickers utilized to represent the healthcare sector were selected based off of market cap from yahoo finance. 
+
 AbbVie, Inc
 
 AMN Healthcare Services, Inc
