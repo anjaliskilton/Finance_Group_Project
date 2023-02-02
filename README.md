@@ -69,7 +69,7 @@ However, as we are trying to merge multiple data sets across different sectors, 
 ### Scaler Python Code
 ![scale](scale.PNG)
 
-## AutoMobile sector has 1o companies that worked on
+## AutoMobile sector has 10 companies that worked on
 •	Ford
 •	Tesla
 •	General Motors
