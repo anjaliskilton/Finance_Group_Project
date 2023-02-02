@@ -8,7 +8,7 @@ Databases for these sectors were created via Python and SQL and output as CSV fi
 
 ![stock_data](stock_data.png)
 
-##Healthcare
+## Healthcare
 Tickers utilized to represent the healthcare sector were selected based off of market cap from yahoo finance.
 AbbVie, Inc
 AMN Healthcare Services, Inc
@@ -21,7 +21,7 @@ Omega Healthcare Investors
 Sanofi
 Takeda Pharmaceutical Company
 Using yahoo finance, historical ticker data for each stock was pulled from January 2013 to January 2023. Yahoo finance provides CSV files with date of information; open, high, low, close, adj_close, and volume. For this project we are only interested in volume, high, and low data. Thus, SQL was used to pull and merge data from individual csv files.
-##Technology Sector
+## Technology Sector
 Companies
 1.	Accenture(ACN)
 2.	Adobe(ADBE)
@@ -62,7 +62,7 @@ However, as we are trying to merge multiple data sets across different sectors, 
 ### Scaler Python Code
 ![scale](scale.PNG)
 
-##AutoMobile sector has 1o companies that worked on
+## AutoMobile sector has 1o companies that worked on
 •	Ford
 •	Tesla
 •	General Motors
@@ -83,7 +83,7 @@ Build Using
 •	data visualization: tableau, matplotlib
 •	machine learning: scikit-learn
 •	Presentation: Jupyter Notebook
-##Results
+## Results
 Using yahoo finance, historical ticker data for each stock was pulled from January 18th 2013 to January 18th 2023. Yahoo finance provides CSV files with date of information; open, high, low, close, adj_close, and volume. For this project we are only interested in volume, high, and low data. Thus, Python was used to read the csv files and merge it. 
 However, as we are trying to merge multiple data sets across different sectors, it was found that the data needs to be normalized. In this case, MinMaxScaler from sklearn.preprocessing was used to normalize volume, high, and low to a set of data point between 0 and 1. This allows us to compare our large sets of data more accurately.
 
