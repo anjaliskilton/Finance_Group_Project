@@ -9,11 +9,11 @@ Databases for these sectors were created via Python and SQL and output as CSV fi
 ![stock_data](stock_data.png)
 
 ## Tools Used
-"*" Programming language: Python 3.7
-'*" Libraries dataset handling: pandas, numpy
-"*" Data visualization: tableau, matplotlib
-"*" Machine learning: scikit-learn
-"*" Presentation: Jupyter Notebook
+1)Programming language: Python 3.7
+2) Libraries dataset handling: pandas, numpy
+3) Data visualization: tableau, matplotlib
+4) Machine learning: scikit-learn
+5) Presentation: Jupyter Notebook
 
 ## Healthcare
 Tickers utilized to represent the healthcare sector were selected based off of market cap from yahoo finance.
