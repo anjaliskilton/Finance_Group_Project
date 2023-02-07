@@ -6,7 +6,7 @@ In this project our goal is to use multiple indices to show correlations between
 Our steps for this project include attaining ten years of stock data for five sectors that include HealthCare, Technology, Automobile, Materials, Commerce, and Bitcoin. Data for the former sectors was obtained from Yahoo Finance in the form of CSV files. Yahoo finance provides CSV files with the date; open, high, low, close, adj_close, and volume.
 Databases for these sectors were created via Python and SQL and output as CSV files. These databases were normalized using in MinMaxScaler from sklearn.preprocessing.
 
-![stock_data](stock_data.png)
+![stock_data](readme_images/stock_data.png)
 
 ## Consumer_Cyclical 
 The performance of consumer cyclicals is highly related to the state of the economy. They represent goods and services that are not considered necessities but discretionary purchases.
@@ -26,19 +26,19 @@ The performance of consumer cyclicals is highly related to the state of the econ
 
 Tickers utilized to represent the consumer cyclicals sector were selected based off of market cap from simplywall.st. The companies listed in the figure below all have the highest market caps in the materials sector raging from $35.67 billion to $93.156 billion.
 
-![mkt_cap](mkt_cap.png)
+![mkt_cap](readme_images/mkt_cap.png)
 
 Using yahoo finance, historical ticker data for each stock was pulled from January 18th 2013 to January 18th 2023. Yahoo finance provides CSV files with date of information; open, high, low, close, adj_close, and volume. For this project we are only interested in volume, high, and low data. Thus, SQL was used to pull and merge data from individual csv files.
 
 ### Example of SQL code
-![sql_ex](sql_ex.PNG)
+![sql_ex](readme_images/sql_ex.png)
 
-![sql_ex2](sql_ex2.PNG)
+![sql_ex2](readme_images/sql_ex2.png)
 
-![sql_ex3](sql_ex3.PNG)
+![sql_ex3](readme_images/sql_ex3.png)
 
 
 However, as we are trying to merge multiple data sets across different sectors, it was found that the data needs to be normalized. In this case, MinMaxScaler from sklearn.preprocessing was used to normalize volume, high, and low to a set of data point between 0 and 1. This allows us to compare our large sets of data more accurately. 
 
 ### Scaler Python Code
-![scale](scale.PNG)
+![scale](readme_images/scale.png)
