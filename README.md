@@ -40,7 +40,7 @@ Historical ticker data for each stock was pulled from January 2013 to January 20
 Databases for these sectors were created via Python and SQL and output as CSV files.
 However, as we are trying to merge multiple data sets across different sectors, it was found that the data needs to be normalized. In this case, MinMaxScaler from sklearn.preprocessing was used to normalize volume, high, and low to a set of data point between 0 and 1. This allows us to compare our large sets of data more accurately.  These databases were normalized using in MinMaxScaler from sklearn.preprocessing.
 
-![data_source](Resources/images/data_source.png)
+![data_source](Resources/Images/data_source.png)
 
 ## Main tools used in this analysis
 * Programming language: Python 3.7
@@ -48,10 +48,10 @@ However, as we are trying to merge multiple data sets across different sectors, 
 * Data visualization: tableau, matplotlib
 * Machine learning: scikit-learn
 * Presentation: Jupyter Notebook
-![tools](Resources/images/tools.png)
+![tools](Resources/Images/tools.png)
 
 ## The project is divided into four stages:
-![process](Resources/images/process.png)
+![process](Resources/Images/process.png)
 
 Process overview as below
 *	Stage 1: Data cleaning, exploration and preparation
@@ -62,7 +62,7 @@ Process overview as below
 
 *	Stage 4: Conslusion and recommendations
 
-![flow](Resources/images/flow.png)
+![flow](Resources/Images/flow.png)
 
 ## Results 
 
@@ -73,13 +73,13 @@ Using yahoo finance, historical ticker data for each stock was pulled from Janua
 
 ## Example of results
 - OLS REGRESSION AND R2 SCORE
-![OLS_analyis](Resources/images/OLS_analyis.png)
+![OLS_analyis](Resources/Images/OLS_analyis.png)
 
 - Pearson Correlation Coefficient Matrix
-![pearson_corr](Resources/images/pearson_corr.png)
+![pearson_corr](Resources/Images/pearson_corr.png)
 
 - 3D scatter Plot
-![scatter](Resources/images/scatter.png)
+![scatter](Resources/Images/scatter.png)
 
 ## Summary
 
