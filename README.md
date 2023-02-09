@@ -83,6 +83,9 @@ Using yahoo finance, historical ticker data for each stock was pulled from Janua
 
 ## Summary & recommendations
 
+- Based on the model, we can see that price change in stocks affects the volume trading mostly in two sectors that include Consumer and Bitcoin(Cryptocurrency)
+- Technology and Healthcare sectors are the least affected by stock price changes.
+- Since we have on average under 50% correlation from our predictive model, we find that outside factors also affect  the volume trading.
 - As most of the R^2 of  learning model is under 50%. Thus, we conclude that the stock prices of each industry is not signaficantly related to the bitcoin price. 
 - The OLS model is not "smart" enough to predict the stock prices.
 
