@@ -91,7 +91,7 @@ Recommendations:
 
 - For the future analysis, it's always good to compare different models, e.g. we may use the normal or lognormal distribution model for prediction.
 - We may also improve the machine learning model, e.g. increasing the layers to increase the accuracy so that better predict the price trendency.
-- We may try to use a supervised machine learning model such as the Random Forest Classifier combining a multitude of decision trees to predict the charity donation and compare the accuracy.
+- We may try to use a supervised machine learning model such as the Random Forest Classifier combining a multitude of decision trees to predict the price and compare the accuracy.
 
 
 
